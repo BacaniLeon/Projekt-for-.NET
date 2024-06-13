@@ -45,6 +45,11 @@ app.UseEndpoints(endpoints =>
         name: "editgame",
         pattern: "games/edit-game/{id}",
         defaults: new { controller = "Game", action = "Edit" });
+
+    endpoints.MapControllerRoute(
+        name: "searchpublishers",
+        pattern: "publishers/search-publishers",
+        defaults: new { controller = "Publisher", action = "SearchPublishers" });
 });
 
 

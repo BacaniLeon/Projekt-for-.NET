@@ -84,5 +84,20 @@ namespace Vjezba.Web.Controllers
         }
 
 
+        [HttpDelete("category/delete/{id}")]
+        public IActionResult DeleteAjax(int id)
+        {
+            var category = _dbContext.Categories.Find(id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+            _dbContext.Categories.Remove(category);
+            _dbContext.SaveChanges();
+
+            return Ok(new { message = "Category deleted successfully" });
+        }
+
+
     }
 }

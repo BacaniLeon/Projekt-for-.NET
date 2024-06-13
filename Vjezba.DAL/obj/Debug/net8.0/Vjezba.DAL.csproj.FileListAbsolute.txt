@@ -15,3 +15,4 @@ C:\Users\Leon\Desktop\Faks\Projekt\Vjezba.DAL\obj\Debug\net8.0\refint\Vjezba.DAL
 C:\Users\Leon\Desktop\Faks\Projekt\Vjezba.DAL\obj\Debug\net8.0\Vjezba.DAL.pdb
 C:\Users\Leon\Desktop\Faks\Projekt\Vjezba.DAL\obj\Debug\net8.0\Vjezba.DAL.genruntimeconfig.cache
 C:\Users\Leon\Desktop\Faks\Projekt\Vjezba.DAL\obj\Debug\net8.0\ref\Vjezba.DAL.dll
+C:\Users\Leon\Desktop\Faks\Projekt\Vjezba.DAL\obj\Debug\net8.0\Vjezba.DAL.sourcelink.json

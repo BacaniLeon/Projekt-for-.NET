@@ -3,17 +3,42 @@
 @{
     ViewData["Title"] = "Games";
 }
-<h1>@ViewData["Title"]</h1>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Games - Prikaz Podataka</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".delete-game").click(function (event) {
+                event.preventDefault();
+                var button = $(this);
+                var gameId = button.data("id");
+
+                if (confirm("Are you sure you want to delete this game?")) {
+                    $.ajax({
+                        url: "Game/Delete/" + gameId,
+                        type: "DELETE",
+                        success: function (result) {
+                            alert("Game deleted successfully!");
+                            button.closest(".wrapperGame").remove();
+                        },
+                        error: function (err) {
+                            alert("Error deleting game: " + err.responseText);
+                            console.error("Error details:", err);
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+
+
+
 </head>
 <body>
     <nav aria-label="breadcrumb">
@@ -24,6 +49,7 @@
     </nav>
 
     <a class="btn btn-primary mb-4" href="@Url.Action("AddGame", "Game")">Add New Game</a>
+
 
     <div class="fullGame">
        @if (Model != null && Model.Any())
@@ -38,7 +64,7 @@
                     <p class="card-text grade">Publisher: @game.PublisherName </p>
                     <p class="card-text grade">Category: @game.CategoryName </p>
                             <p class="gameDetails__Rating">Average Rating: @game.AverageRating</p>
-
+                            <button class="btn btn-danger delete-game" data-id="@game.Id">Delete With Ajax</button>
                     </div>
                         
                 </div>

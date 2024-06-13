@@ -20,7 +20,6 @@ namespace Vjezba.DAL
         {
             base.OnModelCreating(modelBuilder);
 
-            // Seed podaci za kategorije
             modelBuilder.Entity<Category>().HasData(
                 new Category { Id = 1, Name = "Action" },
                 new Category { Id = 2, Name = "Adventure" },

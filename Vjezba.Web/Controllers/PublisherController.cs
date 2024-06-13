@@ -52,17 +52,19 @@ namespace Vjezba.Web.Controllers
 
             return View(publisher);
         }
-        [Route("publisher/edit/{id}")]
         [HttpPost]
-        public IActionResult Edit(Publisher publisher)
+        [ActionName("Edit")]
+        [Route("publisher/edit/{id}")]
+        public async Task<IActionResult> EditCategory(int id)
         {
-            if (ModelState.IsValid)
-            {
-                _dbContext.Publishers.Update(publisher);
-                _dbContext.SaveChanges();
-                return RedirectToAction("Index");
-            }
+            var publisher = _dbContext.Publishers.Single(p => p.Id == id);
+            var ok = await this.TryUpdateModelAsync(publisher);
+
+
+            _dbContext.SaveChanges();
             return RedirectToAction("Games", "Game");
+
+
         }
 
         [Route("publisher/delete/{id}")]
@@ -78,6 +80,31 @@ namespace Vjezba.Web.Controllers
             _dbContext.SaveChanges();
 
             return RedirectToAction("Games", "Game");
+        }
+
+        [HttpDelete("publisher/delete/{id}")]
+        public IActionResult DeleteAjax(int id)
+        {
+            var publisher = _dbContext.Publishers.Find(id);
+            if (publisher == null)
+            {
+                return NotFound("Publisher not found.");
+            }
+
+            _dbContext.Publishers.Remove(publisher);
+            _dbContext.SaveChanges();
+
+            return Ok(new { message = "Publisher deleted successfully" });
+        }
+
+        [HttpGet]
+        public IActionResult SearchPublishers(string searchQuery)
+        {
+            var publishers = _dbContext.Publishers
+                .Where(p => p.Name.Contains(searchQuery))
+                .ToList();
+
+            return PartialView("_PublisherListPartial", publishers);
         }
     }
 }

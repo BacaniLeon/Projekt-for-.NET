@@ -34,7 +34,6 @@ namespace Vjezba.Web.Controllers
             return View(games);
         }
 
-
         [HttpGet]
         [Route("all-games/{id}")]
         public IActionResult GameDetail(int id)
@@ -180,6 +179,20 @@ namespace Vjezba.Web.Controllers
             return RedirectToAction("Games");
         }
 
+        [HttpDelete("Game/Delete/{id}")]
+        public IActionResult DeleteGameAjax(int id)
+        {
+            var game = _dbContext.Games.Find(id);
+            if (game == null)
+            {
+                return NotFound("Game not found.");
+            }
+
+            _dbContext.Games.Remove(game);
+            _dbContext.SaveChanges();
+
+            return Ok(new { message = "Game deleted successfully" });
+        }
 
         [HttpGet]
         [Route("add-review/{id}")]
@@ -213,6 +226,7 @@ namespace Vjezba.Web.Controllers
             }
             return View(model);
         }
+
 
     }
 }

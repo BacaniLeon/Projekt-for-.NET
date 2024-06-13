@@ -1,0 +1,13 @@
+﻿@model List<Vjezba.Model.Publisher>
+
+@foreach (var publisher in Model)
+{
+    <tr>
+        <td>@publisher.Name</td>
+        <td>
+            <a href="@Url.Action("Edit", "Publisher", new { id = publisher.Id })" class="btn btn-primary">Edit</a>
+            <a href="@Url.Action("Delete", "Publisher", new { id = publisher.Id })" class="btn btn-primary">Delete</a>
+            <button class="btn btn-danger delete-publisher" data-id="@publisher.Id">Delete with Ajax</button>
+        </td>
+    </tr>
+}

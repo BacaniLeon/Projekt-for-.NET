@@ -9,3 +9,4 @@ C:\Users\Leon\Desktop\Faks\Projekt\Vjezba.Model\obj\Debug\net8.0\Vjezba.Model.dl
 C:\Users\Leon\Desktop\Faks\Projekt\Vjezba.Model\obj\Debug\net8.0\refint\Vjezba.Model.dll
 C:\Users\Leon\Desktop\Faks\Projekt\Vjezba.Model\obj\Debug\net8.0\Vjezba.Model.pdb
 C:\Users\Leon\Desktop\Faks\Projekt\Vjezba.Model\obj\Debug\net8.0\ref\Vjezba.Model.dll
+C:\Users\Leon\Desktop\Faks\Projekt\Vjezba.Model\obj\Debug\net8.0\Vjezba.Model.sourcelink.json

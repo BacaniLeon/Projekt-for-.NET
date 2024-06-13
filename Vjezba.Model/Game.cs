@@ -20,10 +20,10 @@ namespace Vjezba.Model
         [Range(1,5)]
         public double Grade { get; set; }
         public string PictureURL { get; set; }
-        [ForeignKey(nameof(Category))]
+       
         public int? CategoryId { get; set; }
         public Category? Category { get; set; }
-        [ForeignKey(nameof(Publisher))]
+       
         public int? PublisherId { get; set; }
         public Publisher? Publisher { get; set; }
         public ICollection<Review>? Reviews { get; set; }

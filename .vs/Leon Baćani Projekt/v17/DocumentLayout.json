@@ -3,36 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.web\\views\\game\\gamedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|solutionrelative:vjezba.web\\views\\game\\gamedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.web\\controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|solutionrelative:vjezba.web\\controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83919B1E-57B9-4F55-BFF7-04F3DEFDE4A9}|Vjezba.Model\\Vjezba.Model.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83919B1E-57B9-4F55-BFF7-04F3DEFDE4A9}|Vjezba.Model\\Vjezba.Model.csproj|solutionrelative:vjezba.model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83919B1E-57B9-4F55-BFF7-04F3DEFDE4A9}|Vjezba.Model\\Vjezba.Model.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.model\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83919B1E-57B9-4F55-BFF7-04F3DEFDE4A9}|Vjezba.Model\\Vjezba.Model.csproj|solutionrelative:vjezba.model\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83919B1E-57B9-4F55-BFF7-04F3DEFDE4A9}|Vjezba.Model\\Vjezba.Model.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.model\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83919B1E-57B9-4F55-BFF7-04F3DEFDE4A9}|Vjezba.Model\\Vjezba.Model.csproj|solutionrelative:vjezba.model\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.web\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|solutionrelative:vjezba.web\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83919B1E-57B9-4F55-BFF7-04F3DEFDE4A9}|Vjezba.Model\\Vjezba.Model.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.model\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83919B1E-57B9-4F55-BFF7-04F3DEFDE4A9}|Vjezba.Model\\Vjezba.Model.csproj|solutionrelative:vjezba.model\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.web\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|solutionrelative:vjezba.web\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.web\\controllers\\gameapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|solutionrelative:vjezba.web\\controllers\\gameapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83919B1E-57B9-4F55-BFF7-04F3DEFDE4A9}|Vjezba.Model\\Vjezba.Model.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.model\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83919B1E-57B9-4F55-BFF7-04F3DEFDE4A9}|Vjezba.Model\\Vjezba.Model.csproj|solutionrelative:vjezba.model\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24AB8929-15A7-490B-A257-DF5D78FD17E3}|Vjezba.DAL\\Vjezba.DAL.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.dal\\gamesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24AB8929-15A7-490B-A257-DF5D78FD17E3}|Vjezba.DAL\\Vjezba.DAL.csproj|solutionrelative:vjezba.dal\\gamesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.web\\views\\publisher\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|solutionrelative:vjezba.web\\views\\publisher\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.web\\views\\publisher\\_publisherlistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|solutionrelative:vjezba.web\\views\\publisher\\_publisherlistpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.web\\views\\game\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|solutionrelative:vjezba.web\\views\\game\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.web\\views\\game\\_createoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|solutionrelative:vjezba.web\\views\\game\\_createoredit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.web\\views\\game\\games.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|solutionrelative:vjezba.web\\views\\game\\games.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|solutionrelative:vjezba.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.web\\views\\game\\gamedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|solutionrelative:vjezba.web\\views\\game\\gamedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.web\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|solutionrelative:vjezba.web\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.web\\views\\publisher\\addpublisher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|solutionrelative:vjezba.web\\views\\publisher\\addpublisher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9543656F-FADA-4C0C-8E99-64BEA88D40EA}|Vjezba.Web\\Vjezba.Web.csproj|c:\\users\\leon\\desktop\\faks\\projekt\\vjezba.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -46,122 +70,203 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Vjezba.Web\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\wwwroot\\css\\site.css",
               "RelativeToolTip": "Vjezba.Web\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAUAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAwwEgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-06-11T11:40:51.993Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Review.cs",
-              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Model\\Review.cs",
-              "RelativeDocumentMoniker": "Vjezba.Model\\Review.cs",
-              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Model\\Review.cs",
-              "RelativeToolTip": "Vjezba.Model\\Review.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T11:11:45.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Publisher.cs",
-              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Model\\Publisher.cs",
-              "RelativeDocumentMoniker": "Vjezba.Model\\Publisher.cs",
-              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Model\\Publisher.cs",
-              "RelativeToolTip": "Vjezba.Model\\Publisher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T11:11:39.651Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Model\\Game.cs",
-              "RelativeDocumentMoniker": "Vjezba.Model\\Game.cs",
-              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Model\\Game.cs",
-              "RelativeToolTip": "Vjezba.Model\\Game.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAtAAAA",
+              "Title": "Publisher.cs",
+              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Model\\Publisher.cs",
+              "RelativeDocumentMoniker": "Vjezba.Model\\Publisher.cs",
+              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Model\\Publisher.cs",
+              "RelativeToolTip": "Vjezba.Model\\Publisher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T11:10:56.283Z",
+              "WhenOpened": "2024-06-13T17:39:14.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Model\\Category.cs",
-              "RelativeDocumentMoniker": "Vjezba.Model\\Category.cs",
-              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Model\\Category.cs",
-              "RelativeToolTip": "Vjezba.Model\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T11:10:51.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameDetail.cshtml",
-              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Game\\GameDetail.cshtml",
-              "RelativeDocumentMoniker": "Vjezba.Web\\Views\\Game\\GameDetail.cshtml",
-              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Game\\GameDetail.cshtml",
-              "RelativeToolTip": "Vjezba.Web\\Views\\Game\\GameDetail.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T10:59:40.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Games.cshtml",
-              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Game\\Games.cshtml",
-              "RelativeDocumentMoniker": "Vjezba.Web\\Views\\Game\\Games.cshtml",
-              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Game\\Games.cshtml",
-              "RelativeToolTip": "Vjezba.Web\\Views\\Game\\Games.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-13T10:58:23.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "GameController.cs",
               "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Controllers\\GameController.cs",
               "RelativeDocumentMoniker": "Vjezba.Web\\Controllers\\GameController.cs",
               "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Controllers\\GameController.cs",
               "RelativeToolTip": "Vjezba.Web\\Controllers\\GameController.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAwwHAAAAAJAAAA",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAmwJoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T10:54:39.894Z"
+              "WhenOpened": "2024-06-13T17:38:41.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PublisherController.cs",
+              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Controllers\\PublisherController.cs",
+              "RelativeDocumentMoniker": "Vjezba.Web\\Controllers\\PublisherController.cs",
+              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Controllers\\PublisherController.cs",
+              "RelativeToolTip": "Vjezba.Web\\Controllers\\PublisherController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAADwvyQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T16:42:07.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Vjezba.Web\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Vjezba.Web\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T20:23:38.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Controllers\\GameApiController.cs",
+              "RelativeDocumentMoniker": "Vjezba.Web\\Controllers\\GameApiController.cs",
+              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Controllers\\GameApiController.cs",
+              "RelativeToolTip": "Vjezba.Web\\Controllers\\GameApiController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T19:59:24.858Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Program.cs",
-              "RelativeDocumentMoniker": "Vjezba.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Program.cs",
-              "RelativeToolTip": "Vjezba.Web\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACsAAAAEAAAA",
+              "Title": "GamesDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.DAL\\GamesDbContext.cs",
+              "RelativeDocumentMoniker": "Vjezba.DAL\\GamesDbContext.cs",
+              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.DAL\\GamesDbContext.cs",
+              "RelativeToolTip": "Vjezba.DAL\\GamesDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T11:52:42.447Z"
+              "WhenOpened": "2024-06-13T17:39:24.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Model\\Game.cs",
+              "RelativeDocumentMoniker": "Vjezba.Model\\Game.cs",
+              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Model\\Game.cs",
+              "RelativeToolTip": "Vjezba.Model\\Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T20:14:02.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Game\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Vjezba.Web\\Views\\Game\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Game\\Edit.cshtml",
+              "RelativeToolTip": "Vjezba.Web\\Views\\Game\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T17:35:46.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_CreateOrEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Game\\_CreateOrEdit.cshtml",
+              "RelativeDocumentMoniker": "Vjezba.Web\\Views\\Game\\_CreateOrEdit.cshtml",
+              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Game\\_CreateOrEdit.cshtml",
+              "RelativeToolTip": "Vjezba.Web\\Views\\Game\\_CreateOrEdit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T17:35:44.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GameDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Game\\GameDetail.cshtml",
+              "RelativeDocumentMoniker": "Vjezba.Web\\Views\\Game\\GameDetail.cshtml",
+              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Game\\GameDetail.cshtml",
+              "RelativeToolTip": "Vjezba.Web\\Views\\Game\\GameDetail.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T17:32:38.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Games.cshtml",
+              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Game\\Games.cshtml",
+              "RelativeDocumentMoniker": "Vjezba.Web\\Views\\Game\\Games.cshtml",
+              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Game\\Games.cshtml",
+              "RelativeToolTip": "Vjezba.Web\\Views\\Game\\Games.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T17:35:28.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_PublisherListPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Publisher\\_PublisherListPartial.cshtml",
+              "RelativeDocumentMoniker": "Vjezba.Web\\Views\\Publisher\\_PublisherListPartial.cshtml",
+              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Publisher\\_PublisherListPartial.cshtml",
+              "RelativeToolTip": "Vjezba.Web\\Views\\Publisher\\_PublisherListPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T17:34:20.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddPublisher.cshtml",
+              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Publisher\\AddPublisher.cshtml",
+              "RelativeDocumentMoniker": "Vjezba.Web\\Views\\Publisher\\AddPublisher.cshtml",
+              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Publisher\\AddPublisher.cshtml",
+              "RelativeToolTip": "Vjezba.Web\\Views\\Publisher\\AddPublisher.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T17:32:53.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Publisher\\Index.cshtml",
+              "RelativeDocumentMoniker": "Vjezba.Web\\Views\\Publisher\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Leon\\Desktop\\Faks\\Projekt\\Vjezba.Web\\Views\\Publisher\\Index.cshtml",
+              "RelativeToolTip": "Vjezba.Web\\Views\\Publisher\\Index.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAiwFoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T16:42:03.384Z",
+              "EditorCaption": ""
             }
           ]
         }
