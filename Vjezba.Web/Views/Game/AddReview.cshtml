@@ -1,0 +1,24 @@
+﻿@model Vjezba.Web.Models.ReviewViewModel
+
+@{
+    ViewData["Title"] = "Add Review";
+}
+
+<h1>Add Review for Game</h1>
+
+<form asp-action="AddReview" method="post">
+    <div class="form-group">
+        <label asp-for="Content" class="control-label"></label>
+        <textarea asp-for="Content" class="form-control"></textarea>
+        <span asp-validation-for="Content" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Rating" class="control-label"></label>
+        <input asp-for="Rating" class="form-control" />
+        <span asp-validation-for="Rating" class="text-danger"></span>
+    </div>
+    <input type="hidden" asp-for="GameId" />
+    <div class="form-group">
+        <input type="submit" value="Add Review" class="btn btn-primary" />
+    </div>
+</form>

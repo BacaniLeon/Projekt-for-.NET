@@ -1,0 +1,29 @@
+﻿@model List<Vjezba.Model.Category>
+
+    <h1>Categories</h1>
+
+    <p>
+        <a asp-action="add">Create New</a>
+    </p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>
+                    <a href="@Url.Action("Edit", "Category", new { id = item.Id })">Edit</a> |
+                    <a href="@Url.Action("Delete", "Category", new { id = item.Id })">Delete</a>
+
+                    </td>
+                </tr>
+        }
+        </tbody>
+    </table>

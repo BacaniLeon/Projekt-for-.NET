@@ -1,0 +1,16 @@
+﻿@model Vjezba.Model.Game
+
+@{
+    ViewData["Title"] = "Edit Game";
+}
+
+<h1>Edit Game</h1>
+
+<form asp-action="Edit" method="post">
+    <imput asp-for="Id" type="hidden" />
+    <partial name="_CreateOrEdit" />
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

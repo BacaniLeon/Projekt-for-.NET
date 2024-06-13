@@ -1,0 +1,124 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.title{
+    font-size:50px;
+    color:black;
+    font-weight:bold;
+}
+
+.grade{
+    font-size:25px;
+    font-style:italic;
+}
+
+.images{
+    width:300px !important;
+    height:150px;
+    margin:0 auto;
+}
+
+.card-body{
+    display:grid;
+    gap:30px;
+    margin-bottom:50px;
+  
+}
+
+.fullGame{
+    display:flex;
+    gap:50px;
+    margin:0 auto;
+    flex-wrap:wrap;
+   
+}
+
+.wrapperGame{
+    border:1px solid grey;
+    display:flex;
+    width:30%;
+}
+
+.titleAndGrade{
+    margin: 0 auto;
+    text-align:center;
+}
+
+.buttonDetails {
+    width: 100px;
+    height: 50px;
+
+}
+
+.details {
+    margin: 0 auto;
+}
+
+.gameDetails__Title{
+    font-size:50px;
+    font-weight:bold;
+}
+
+.gameDetails__Description {
+    font-size:30px;
+}
+
+.gameDetails__Image {
+   width:500px;
+   height:300px;
+   margin:auto;
+}
+
+.gameDetails__Container{
+    display:grid;
+    gap:20px;
+    text-align:center;
+}
+
+
+.deleteEditButton {
+    width: 100px;
+    height:50px;
+    margin-bottom:30px;
+}
+
+.editAndDeleteButtons{
+    display:flex;
+    gap:50px;
+    margin:0 auto;
+}
+
+.gameDetails__Publisher{
+    font-size:35px;
+}
+
+.gameDetails__Rating {
+    font-size: 30px;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+.reviewDiv{
+    margin-bottom:30px;
+    p{
+          font-size:20px;
+          word-break:break-all;
+      }
+
+}

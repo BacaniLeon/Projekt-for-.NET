@@ -1,0 +1,55 @@
+﻿@model List<Vjezba.Web.Models.GameViewModel>
+
+@{
+    ViewData["Title"] = "Games";
+}
+<h1>@ViewData["Title"]</h1>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games - Prikaz Podataka</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="~/Home">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Games</li>
+        </ol>
+    </nav>
+
+    <a class="btn btn-primary mb-4" href="@Url.Action("AddGame", "Game")">Add New Game</a>
+
+    <div class="fullGame">
+       @if (Model != null && Model.Any())
+        {
+        @foreach (var game in Model)
+        {
+            <div class="wrapperGame" >
+                <div class="card-body">
+                    <img src="@game.PictureURL" class="card-img-bottom images" alt="Slika @game.Title">
+                    <div class="titleAndGrade">
+                            <a asp-controller="games" asp-action="all-games" asp-route-id="@game.Id" class="title">@game.Title</a>
+                    <p class="card-text grade">Publisher: @game.PublisherName </p>
+                    <p class="card-text grade">Category: @game.CategoryName </p>
+                            <p class="gameDetails__Rating">Average Rating: @game.AverageRating</p>
+
+                    </div>
+                        
+                </div>
+            </div>
+            }
+        }
+        else
+        {
+        <p>No games available.</p>
+        }
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
